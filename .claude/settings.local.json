@@ -12,11 +12,14 @@
       "Bash(start popup.html)",
       "Bash(start dynamic-validation-test.html)",
       "Bash(bash:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(tree:*)"
     ],
     "deny": [],
     "ask": [],
-    "additionalDirectories": ["C:\\c\\Users\\user\\Desktop"]
+    "additionalDirectories": [
+      "C:\\c\\Users\\user\\Desktop"
+    ]
   },
   "hooks": {
     "Notification": [
@@ -24,7 +27,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash decision_notify.sh"
+            "command": "bash notifications/decision_notify.sh"
           }
         ]
       }
